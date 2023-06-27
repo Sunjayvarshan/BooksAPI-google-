@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Manrope', 'sans-serif';
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #040C18;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+}
+
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Gallary_image{
+    height: 270px;
+    width: 200px;
+    padding: 1rem;
+}
+
+.Gallary_items{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.Gallary_items p{
+    position: relative;
+    font-family: var(--font-family);
+    font-weight: 1000;
+    color: #042c54;
+    
+}
+
+.card{
+    background-color:#E5E4E2;
+    box-shadow: -3px 6px 5px 0px rgb(166, 164, 176);
+    transition: all .3s ease-in-out;
+    /* border:solid 1px var(--color-footer); */
+    border-radius: 10px;
+    margin: 2rem;
+    padding: 0;
+    height: 380px;
+    width: 240px;
+}
+.card:hover {
+    box-shadow: -3px 18px 20px 0px rgba(99,89,99,1);
+  }
+
+
